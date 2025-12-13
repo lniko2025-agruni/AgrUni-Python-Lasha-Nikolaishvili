@@ -1,0 +1,19 @@
+{
+    "person_stats": {
+        "max_bought_by_amount": [
+            "sam_jones"
+        ],
+        "max_bought_by_value": [
+            "peter_black"
+        ]
+    },
+    "product_stats": {
+        "max_bought_by_amount": [
+            "orange"
+        ]
+    },
+    "general_sales_stats": {
+        "mean_value": 10.92,
+        "mean_amount": 3
+    }
+}
