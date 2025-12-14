@@ -12,7 +12,7 @@ lower_words = list(map(lambda word: word.lower(), words))
 print("Lower case words:", lower_words)
 
 # 3
-word_counts = functools.reduce(lambda res, word: res.update({word: lower_words.count(word)}) or res, words, {})
+word_counts = functools.reduce(lambda res, word: res.update({word: lower_words.count(word)}) or res, lower_words, {})
 print("Word counts dict:", word_counts)
 
 # 4
